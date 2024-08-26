@@ -3,4 +3,4 @@ let y = 6
 
 let z = x + y
 
-print(z)
+console.log(z)
