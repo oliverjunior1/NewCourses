@@ -8,5 +8,6 @@ namespace CSharp.variables
     public class NewClass
     {
         Console.WriteLine("Hello!");
+        Console.ReadLine();
     }
 }
