@@ -9,12 +9,20 @@ fun main() {
         i++
     }
 //--------------------------------------
-*/
 // Arrays
 val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
 
 for(car in cars) {
     println(car)
+
+//-----------------loop_for------------------------------
+    */
+val cars = arrayOf("Volvo", "BMW", "Ford", "Ford")
+for (x in cars) {
+    println(x)
 }
+
+
+
 }
 
