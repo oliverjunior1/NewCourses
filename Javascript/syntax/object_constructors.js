@@ -7,8 +7,5 @@ function Person(first, last, age, eye) {
 
 const me = new Person("Joaquim", "Rodrigues", 41, "Brown")
 
-for (x, y in me) {
-    alert(x)
-    alert(y)
-    
-}
+alert(me.age)
+alert(me.lastName)
