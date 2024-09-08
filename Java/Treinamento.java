@@ -21,7 +21,7 @@ public class Treinamento {
         int time = 20;
         String result = (time < 18)? "Good day." : "Good evening.";
         System.out.println(result);
-        */
+        
         //---------------------Switch-------------------------------------
         int day = 4;
         switch(day) {
@@ -51,5 +51,12 @@ public class Treinamento {
                 break;
         
         }
+        */
+        //-----------------------------while--------------------------------------------------
+       int i = 0;
+       while (i <=10) {
+        System.err.println(i);
+        i++;
+       }
     }
 }
