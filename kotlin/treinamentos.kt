@@ -21,12 +21,16 @@ val cars = arrayOf("Volvo", "BMW", "Ford", "Ford")
 for (x in cars) {
     println(x)
 }
-*/
+
 //-----------------------range---------------------------
 for (nums in 5..15) {
     println(nums)
 }
-
+*/
+fun main() {
+    println("Hello World!")
+}
+main()
 
 }
 
