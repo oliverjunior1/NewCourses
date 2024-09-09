@@ -51,12 +51,20 @@ public class Treinamento {
                 break;
         
         }
-        */
+        
         //-----------------------------while--------------------------------------------------
        int i = 0;
        while (i <=10) {
         System.err.println(i);
         i++;
-       }
-    }
+        */
+        int i = 0;
+        do {
+            System.out.println(i);
+            i++;
+        }
+        while (i <10);
+            
+    }        
+
 }
