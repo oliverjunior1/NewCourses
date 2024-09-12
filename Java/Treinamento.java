@@ -64,7 +64,7 @@ public class Treinamento {
             i++;
         }
         while (i <10);
-        */
+        
         //-------------------------------switch--------------------------------------------------
         int day = 6;
         switch (day) {
@@ -93,6 +93,13 @@ public class Treinamento {
                 System.out.println("Type the number from 1 to 7, invalid number!");
                 break;
         }
+                */
+                int i = 0;
+                while(i < 10) {
+                    System.out.println(i++);
+                }
+
+
     }        
 
 }
