@@ -31,7 +31,7 @@ fun main() {
     println("Hello World!")
 }
 main()
-*/
+
 //-----------------------class---------------------------
 class Car {
     var brand = ""
@@ -47,5 +47,21 @@ myCar.year = 2009
 println(myCar.brand)
 println(myCar.model)
 println(myCar.year)
+*/
+//---------------------constructor----------------------------
+class Person {
+    var name = " "
+    var lname = " "
+    var age = 0
+}
+var p1 = Person()
+p1.name = "Joaquim"
+p1.lname = "Rodrigues"
+p1.age = 41
+
+println(p1.name)
+println(p1.lname)
+println(p1.age)
+
 }
 
