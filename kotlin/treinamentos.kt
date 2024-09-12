@@ -26,11 +26,26 @@ for (x in cars) {
 for (nums in 5..15) {
     println(nums)
 }
-*/
+
 fun main() {
     println("Hello World!")
 }
 main()
+*/
+//-----------------------class---------------------------
+class Car {
+    var brand = ""
+    var model = ""
+    var year = 0
+}
 
+var myCar = Car()
+myCar.brand = "Volkswagen"
+myCar.model = "Polo"
+myCar.year = 2009
+
+println(myCar.brand)
+println(myCar.model)
+println(myCar.year)
 }
 
