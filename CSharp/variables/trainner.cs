@@ -104,7 +104,7 @@ namespace Variables
             string result = (time < 18) ? "Good day" : "Good evening.";
             Console.WriteLine(result);
             Console.ReadLine();
-            */
+            
             //----------------------switch----------------------------------
             int day = 4;
 
@@ -136,6 +136,14 @@ namespace Variables
                     break;
             }
             Console.ReadLine();
+            */
+            int i = 0;
+            while (i < 10)
+            {
+                Console.WriteLine(i++);
+            }
+            Console.ReadLine();
+
         }
     }
 }
