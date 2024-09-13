@@ -136,14 +136,20 @@ namespace Variables
                     break;
             }
             Console.ReadLine();
-            */
+            
+            //-------------------------------While----------------------------------------
             int i = 0;
             while (i < 10)
             {
                 Console.WriteLine(i++);
             }
             Console.ReadLine();
-
+            */
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(i);
+            }
+        Console.ReadLine();
         }
     }
 }
