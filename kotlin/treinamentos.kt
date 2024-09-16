@@ -1,6 +1,6 @@
 
 
-fun main() {
+//fun main() {
     /* 
     //while
     var i = 0
@@ -47,7 +47,7 @@ myCar.year = 2009
 println(myCar.brand)
 println(myCar.model)
 println(myCar.year)
-*/
+
 //---------------------constructor----------------------------
 class Person {
     var name = " "
@@ -62,6 +62,19 @@ p1.age = 41
 println(p1.name)
 println(p1.lname)
 println(p1.age)
-
 }
+*/
+//-----------------------class-functions-----------------------------------
+class Car(var brand:String, var model:String, var year:Int) {
+    //Class function
+    fun drive() {
+        println("Wroom!")
+    }
+}
+fun main() {
+    val c1 = Car("Ford", "Mustang", 1969)
+    c1.drive()
+}
+
+
 
