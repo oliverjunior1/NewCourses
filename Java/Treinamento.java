@@ -98,12 +98,20 @@ public class Treinamento {
                 while(i < 10) {
                     System.out.println(i++);
                 }
-        */
+        
             //-------------------------------while--------------------------------------------
             int i = 0;
             while(i < 10) {
                 System.out.println(i++);
             }
+        */
+        //--------------------------------do-while---------------------------------
+        int i = 0;
+        do {
+            System.err.println(i);
+            i++;
+        }
+        while(i < 10);
 
     }        
 
