@@ -63,7 +63,7 @@ println(p1.name)
 println(p1.lname)
 println(p1.age)
 }
-*/
+
 //-----------------------class-functions-----------------------------------
 class Car(var brand:String, var model:String, var year:Int) {
     //Class function
@@ -75,6 +75,20 @@ fun main() {
     val c1 = Car("Ford", "Mustang", 1969)
     c1.drive()
 }
+*/
+//--------------------Inheritance--------------------------------------
+open class MyParentClass {
+    val x = 5
+}
 
+class MyChildClass: MyParentClass() {
+    fun myFunction() {
+        println(x)
+    }
+}
 
+fun main() {
+    val myObj = MyChildClass()
+    myObj.myFunction()
+}
 
