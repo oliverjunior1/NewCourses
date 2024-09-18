@@ -152,11 +152,17 @@ namespace Variables
                 Console.WriteLine(i);
             }
         Console.ReadLine();
-            */
+            //--------------------Foreach---------------------------------
             String[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
             foreach (String car in cars)
             {
                 Console.WriteLine(car);
+            }
+            Console.ReadLine();
+            */
+            for (int i =0; i <10; i++)
+            {
+                Console.WriteLine(i);
             }
             Console.ReadLine();
         }
