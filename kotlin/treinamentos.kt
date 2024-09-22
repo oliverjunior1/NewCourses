@@ -75,7 +75,7 @@ fun main() {
     val c1 = Car("Ford", "Mustang", 1969)
     c1.drive()
 }
-*/
+
 //--------------------Inheritance--------------------------------------
 open class MyParentClass {
     val x = 5
@@ -91,4 +91,7 @@ fun main() {
     val myObj = MyChildClass()
     myObj.myFunction()
 }
-
+*/
+fun main() {
+    
+}
