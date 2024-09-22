@@ -159,11 +159,18 @@ namespace Variables
                 Console.WriteLine(car);
             }
             Console.ReadLine();
-            */
+            //--------------for_loop---------------------------------
             for (int i =0; i <10; i++)
             {
                 Console.WriteLine(i);
             }
+            Console.ReadLine();
+            */
+            String[] cars = { "Mazda", "Volkswagen", "Citroen", "Renault" };
+            Console.WriteLine(cars[0]);
+            Console.WriteLine(cars[1]);
+            Console.WriteLine(cars[2]);
+            Console.WriteLine(cars[3]);
             Console.ReadLine();
         }
     }
