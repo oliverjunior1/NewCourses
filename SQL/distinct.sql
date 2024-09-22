@@ -1,1 +1,1 @@
-SELECT DISTINCT(rental_rate) FROM film;
+SELECT DISTINCT(rating) FROM film;
