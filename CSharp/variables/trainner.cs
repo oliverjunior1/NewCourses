@@ -165,12 +165,19 @@ namespace Variables
                 Console.WriteLine(i);
             }
             Console.ReadLine();
-            */
+            //----------------arrays----------------------------------------
             String[] cars = { "Mazda", "Volkswagen", "Citroen", "Renault" };
             Console.WriteLine(cars[0]);
             Console.WriteLine(cars[1]);
             Console.WriteLine(cars[2]);
             Console.WriteLine(cars[3]);
+            Console.ReadLine();
+            */
+            String[] cars = { "Mazda", "Volkswagen", "Citroen", "Renault" };
+            for (int i = 0; i < cars.Length; i++)
+            {
+                Console.WriteLine(cars[i]);
+            }
             Console.ReadLine();
         }
     }
