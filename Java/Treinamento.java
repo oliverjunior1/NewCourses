@@ -119,14 +119,20 @@ public class Treinamento {
         }
             
         //----------------------------nested_loops---------------------------
-        */
+        
         for (int i = 0; i <=2; i++) {
             System.out.println("Outer: "+ i);
             for (int j = 1; j <=3; j++) {
                 System.out.println("Inner: " + j);
             }
+                
+        
         }
-
+    */
+        String[] cars = {"Mazda", "Volvo", "Mitsubishi", "Ford"};
+        for (String i: cars) {
+            System.out.println(i);
+        }
     }        
 
 }
