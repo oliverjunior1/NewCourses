@@ -128,11 +128,15 @@ public class Treinamento {
                 
         
         }
-    */
+    
+        
         String[] cars = {"Mazda", "Volvo", "Mitsubishi", "Ford"};
         for (String i: cars) {
             System.out.println(i);
         }
+            */
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        System.out.println(cars[0]);
     }        
 
 }
