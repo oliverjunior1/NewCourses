@@ -12,4 +12,12 @@ fun main() {
 
     println(newAge)
 
+    val num1 = 5 // immutable
+    var num2 = 5 // mutable
+    var x = num1 + 1
+    var y = num2 + 1
+
+    println(x)
+    println(y)
+
 }
