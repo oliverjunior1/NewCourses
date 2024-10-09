@@ -14,10 +14,10 @@ fun main() {
 
     val num1 = 5 // immutable
     var num2 = 5 // mutable
-    var x = num1 + 1
-    var y = num2 + 1
+    //num1 = 6
+    num2 = 6
 
-    println(x)
-    println(y)
+    println(num1)
+    println(num2)
 
 }
